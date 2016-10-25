@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>State:</strong>
+  <%= @participant.state_id %>
+</p>
+
+<p>
+  <strong>Mailing address:</strong>
+  <%= @participant.mailing_address %>
+</p>
+
+<p>
+  <strong>Mailing city:</strong>
+  <%= @participant.mailing_city %>
+</p>
+
+<p>
+  <strong>Mailing state:</strong>
+  <%= @participant.mailing_state %>
+</p>
+
+<p>
+  <strong>Mailing zipcode:</strong>
+  <%= @participant.mailing_zipcode %>
+</p>
+
+<%= link_to 'Edit', edit_participant_path(@participant) %> |
+<%= link_to 'Back', participants_path %>

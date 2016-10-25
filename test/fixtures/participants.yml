@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  state_id: 1
+  mailing_address: MyString
+  mailing_city: MyString
+  mailing_state: MyString
+  mailing_zipcode: 1
+
+two:
+  state_id: 1
+  mailing_address: MyString
+  mailing_city: MyString
+  mailing_state: MyString
+  mailing_zipcode: 1
